@@ -35,6 +35,14 @@
      unarchive:
         src: /tmp/apache-tomcat-8.5.65.tar.gz
         dest: /opt/tomcat
+   - name: creating create a symbolic link 
+     file:
+       src: /opt/tomcat/apache-tomcat-8.5.65
+       dest: /opt/tomcat/latest
+       owner: tomcat
+       group: tomcat
+       state: link
+     
 
 
 
