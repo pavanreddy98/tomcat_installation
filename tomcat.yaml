@@ -19,7 +19,16 @@
        shell: /bin/false
        group: tomcat
        home: /opt/tomcat
-       
+   - name: insatalling unzip package
+     apt:
+       name: unzip 
+       state: present 
+   - name: installing wget package
+     apt:
+       name: wget
+       state: present
+   
+
 
 
 
