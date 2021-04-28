@@ -27,7 +27,11 @@
      apt:
        name: wget
        state: present
-   
+   - name: downloading the tomcat zip file
+     get_url:
+        url: http://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.zip
+        dest: /temp
+        
 
 
 
