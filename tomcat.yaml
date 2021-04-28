@@ -42,6 +42,15 @@
        owner: tomcat
        group: tomcat
        state: link
+   - name: changing ownership
+     file:
+       path: /opt/tomcat/apache-tomcat-8.5.65
+       owner: tomcat
+       group: tomcat
+       
+
+
+    
      
 
 
