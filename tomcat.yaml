@@ -29,8 +29,8 @@
        state: present
    - name: downloading the tomcat zip file
      get_url:
-        url: http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz
-        dest: /tmp/apache-tomcat-9.0.27.tar.gz
+        url: file:///Users/kallapavanreddy/Downloads/apache-tomcat-8.5.65.tar.gz
+        dest: /tmp/apache-tomcat-8.5.65.tar.gz
 
 
 
