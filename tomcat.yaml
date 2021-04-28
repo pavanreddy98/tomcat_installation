@@ -12,8 +12,8 @@
      ansible.buitlin.group:
        name: tomcat
        state: present
-    - name: creating a new user
-      ansible.builtin.user:
+   - name: creating a new user
+     ansible.builtin.user:
        name: tomcat
        state: present
        shell: /bin/false
