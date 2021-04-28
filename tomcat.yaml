@@ -70,7 +70,7 @@
        dest: /etc/systemd/system/tomcat.service
    - name : reloading a demon
      systemd:
-        name: tomcat
+        name: tomcat.service
         daemon_reload: yes 
         state: "started"
      
