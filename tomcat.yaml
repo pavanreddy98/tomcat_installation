@@ -78,8 +78,8 @@
    - name: copying a file
      copy:
        src: tomcat-users.xml
-       dest: /etc/systemd/system/tomcat-users.xml
-       
+       dest: /opt/tomcat/latest/conf/tomcat-users.xml
+
      
        
    
