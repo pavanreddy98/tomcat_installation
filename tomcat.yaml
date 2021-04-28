@@ -29,7 +29,7 @@
        state: present
    - name: downloading the tomcat zip file
      get_url:
-        url: file:///Users/kallapavanreddy/Downloads/apache-tomcat-8.5.65.tar.gz
+        url: https://downloads.apache.org/tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.tar.gz
         dest: /tmp/apache-tomcat-8.5.65.tar.gz
 
 
