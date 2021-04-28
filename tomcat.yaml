@@ -79,7 +79,10 @@
      copy:
        src: tomcat-users.xml
        dest: /opt/tomcat/latest/conf/tomcat-users.xml
-
+   - name: copying a file
+     copy:
+       src: context.xml
+       dest: /opt/tomcat/latest/webapps/manager/META-INF/context.xml
      
        
    
