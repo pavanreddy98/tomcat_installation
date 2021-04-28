@@ -29,8 +29,8 @@
        state: present
    - name: downloading the tomcat zip file
      get_url:
-        url: https://downloads.apache.org/tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.zip.asc
-        dest: /tmp/apache-tomcat-8.5.65
+        url: https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61.zip
+        dest: /tmp/apache-tomcat-8.5.61.zip
 
 
 
