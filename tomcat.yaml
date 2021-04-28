@@ -30,7 +30,7 @@
    - name: downloading the tomcat zip file
      get_url:
         url: https://downloads.apache.org/tomcat/tomcat-8/v8.5.65/bin/apache-tomcat-8.5.65.zip.asc
-        dest: /tmp/bin/apache-tomcat-8.5.65
+        dest: /tmp/apache-tomcat-8.5.65
 
 
 
