@@ -8,6 +8,25 @@
        name: openjdk-8-jdk
        update_cache: yes
        state: present 
+   - name: creating a new group
+     ansible.buitlin.group:
+       name: tomcat
+       state: present
+    - name: creating a new user
+      ansible.builtin.user:
+       name: tomcat
+       state: present
+       shell: /bin/false
+       group: tomcat
+       home: /opt/tomcat
+
+
+      
+      
+
+    
+  
+    
    
     
     
