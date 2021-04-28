@@ -64,6 +64,10 @@
        - /opt/tomcat/latest/bin/startup.sh  
        - /opt/tomcat/latest/bin/shutdown.sh  
        - /opt/tomcat/latest/bin/version.sh
+   - name: copying a file
+     copy:
+       src: tomcat.service
+       dest: /etc/systemd/system/tomcat.service
        
    
 
