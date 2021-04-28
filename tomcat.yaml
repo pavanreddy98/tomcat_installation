@@ -47,7 +47,7 @@
        path: /opt/tomcat/apache-tomcat-8.5.65
        owner: tomcat
        group: tomcat
-       recursive: yes
+       recurse: yes
    - name: giving file permissions
      file:
        path: "{{ item }}"
