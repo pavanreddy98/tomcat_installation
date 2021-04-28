@@ -75,6 +75,11 @@
         enabled: yes
         daemon_reload: yes 
         state: "started"
+   - name: copying a file
+     copy:
+       src: tomcat-users.xml
+       dest: /etc/systemd/system/tomcat-users.xml
+       
      
        
    
