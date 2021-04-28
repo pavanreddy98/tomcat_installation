@@ -14,11 +14,11 @@
        state: present
    - name: creating a new user
      ansible.builtin.user:
-       name: tomcat
-       state: present
-       shell: /bin/false
-       group: tomcat
-       home: /opt/tomcat
+        name: tomcat
+        state: present
+        shell: /bin/false
+        group: tomcat
+        home: /opt/tomcat
 
 
       
